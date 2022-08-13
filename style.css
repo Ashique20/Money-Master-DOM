@@ -1,0 +1,93 @@
+h1{
+    margin-left: 100px;
+    font-size: small;
+    font-style:initial;
+    font-weight: bold;
+    font-family:sans-serif;
+    margin-top: 40px;
+}
+.header{
+    background-color:aliceblue;
+    text-align: center;
+    color: darkslategrey;
+    font-size:xx-large;
+
+}
+.flexible{
+    display: flex;
+   justify-content: space-around;
+
+   background-color: cornsilk;
+   
+   
+    
+    
+    
+}
+.image{
+    width: 400px;
+    height:650px;
+    margin-right: 250px;
+    
+
+}
+input{
+    
+    border-color: grey ;
+    margin-right: 150px;
+    background-color:bisque;
+    
+    
+}
+
+.income{
+    margin-left: 75px;
+}
+.button-1{
+    margin-left: 80px;
+    
+}
+.Calculate{
+    background-color:rgb(13, 26, 26);
+    color:white;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+}
+.save{
+    display: flex;
+
+        
+}
+.Remaining{
+    margin-bottom:100px ;
+}
+.save-input{
+    margin-right: 0px;
+    
+}
+.save-click{
+    background-color:rgb(13, 26, 26);
+    color:white;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+}
+
+@media (max-width:680px) {
+    .flexible{
+        flex-direction: column;
+    }
+    
+}
+
+
+

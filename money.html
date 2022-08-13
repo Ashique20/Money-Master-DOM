@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="header">Amount Of Cash</h1>
+
+    <section class="flexible">
+      <!-- cash image -->
+      <div class="mr-40 ml-8">
+        <img class="image" src="images/Dollar_5.jpg" alt="" />
+      </div>
+      <!-- calculation area -->
+      <div class="input">
+        <h1>Income</h1>
+
+        <input id="income-input" class="income" type="income:" />
+
+        <h1>Expences</h1>
+        <ul>
+          <li>
+            Food:
+
+            <input id="Food-input" type="Food:" />
+          </li>
+          <br />
+          <li>Rent: <input id="Rent-input" type="Rent" /></li>
+
+          <br />
+          <li>
+            Cloths:
+
+            <input id="Cloths-input" type="Cloths" />
+          </li>
+        </ul>
+        <div class="button-1" id="Calculate-button">
+          <button class="Calculate" type="button" onclick="">Calculate</button>
+        </div>
+        <div class="Total-Expences">
+          <h1>Total Expences: <span id="Expences-amount">00</span></h1>
+        </div>
+        <div class="Balance">
+          <h1>Balance: <span id="balance-amount">00</span></h1>
+        </div>
+        <div>
+          <p class="save">
+            Save: <input id="save-amount" class="save-input" type="number" />%
+            <button class="save-click" id="save-button" onclick="">Save</button>
+          </p>
+        </div>
+        <div>
+          <h1>Saving Amount: <span id="saving-amount">00</span></h1>
+        </div>
+        <div class="Remaining">
+          <h1>Remaining Balance: <span id="remaining-amount">00</span></h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- script source -->
+    <script src="money.js"></script>
+  </body>
+</html>
